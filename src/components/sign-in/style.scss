@@ -1,0 +1,18 @@
+@import '../../styles/functions';
+@import '../../styles/mixins';
+
+.sign-in {
+    &-form {
+        width: pxToRem(600);
+
+        @include media-breakpoint-below(md) {
+            width: pxToRem(300);
+        }
+    }
+
+    &-button {
+        &.r-button {
+            height: pxToRem(60);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.r-button {
+    &.ant-btn-primary {
+        background-color: var(--color-primary);
+        border-color: var(--color-primary);
+
+        &:hover, &:focus, &:active {
+            background-color: var(--color-primary);
+        }
+    }
+}
